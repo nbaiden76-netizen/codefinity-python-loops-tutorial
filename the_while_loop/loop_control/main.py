@@ -12,7 +12,7 @@ while i < len(countries):
         continue
         
     selected.append(countries[i])
-
+    i += 1
     if len(selected) == 3:
         break  
 # Testing
